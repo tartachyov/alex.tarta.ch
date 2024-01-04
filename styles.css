@@ -32,7 +32,7 @@
     width: 500px;
     /* height: calc(100vh - 100px);
     max-height: 850px; */
-    height: 988px;
+    height: calc(370px + 96px + 20px + 35px + 70px + (65px * 7));
     margin: 0 50px 50px;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@
     filter: drop-shadow(8px 16px 11px rgba(0, 0, 0, 0.25));
     /* animation */
     animation-name: entry-photo;
-    animation-duration: 3000ms;
+    animation-duration: 2500ms;
     animation-iteration-count: 1;
     animation-direction: normal; /* or: alternate normal */
     animation-timing-function: ease-in; /* ease-out ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
@@ -59,7 +59,7 @@
     text-align: center;
     /* animation */
     animation-name: entry-regular-1;
-    animation-duration: 2750ms;
+    animation-duration: 2250ms;
     animation-iteration-count: 1;
     animation-direction: normal; /* or: alternate normal */
     animation-timing-function: ease-in; /* ease-out ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
@@ -71,7 +71,7 @@
     color: #333;
     /* animation */
     animation-name: entry-regular-1;
-    animation-duration: 3500ms;
+    animation-duration: 3000ms;
     animation-iteration-count: 1;
     animation-direction: normal; /* or: alternate normal */
     animation-timing-function: ease-in; /* ease-out ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
@@ -95,7 +95,7 @@
     border-radius: 10px 30px 30px 10px;
     /* animation */
     animation-name: entry-regular-3;
-    animation-duration: 4000ms;
+    animation-duration: 3500ms;
     animation-iteration-count: 1;
     animation-direction: normal; /* or: alternate normal */
     animation-timing-function: ease-in; /* ease-out ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
@@ -119,6 +119,7 @@
     width: 725px;
     height: 1088px;
     margin: 0 50px 50px;
+    /* padding: 5px 0; */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -171,6 +172,9 @@
 .profile-socials-item:hover {
     color: white;
     background: black;
+}
+.calendly:hover {
+    background: #3664AE;
 }
 .telegram:hover {
     background: #2AABEE;
@@ -246,17 +250,18 @@
 
 
 /* ANIMATIONS */
+/* 2500ms */
 @keyframes entry-photo {
     0% { 
         opacity: 0; 
         filter: drop-shadow(-8px 0px 5px rgba(0, 0, 0, 0.25));
     }
     25% { 
-        /* 750ms */
+        /* 500ms */
         opacity: 1; 
     }
     70% {
-        /* 2100ms */
+        /* 1750ms */
         filter: drop-shadow(0px 28px 5px rgba(0, 0, 0, 0.25));
     }
     100% { 
@@ -265,7 +270,7 @@
     }
 }
 
-/* 2750ms */
+/* 2250ms */
 @keyframes entry-regular-1 {
     0% { 
         opacity: 0; 
@@ -278,7 +283,7 @@
     }
 }
 
-/* 3500ms */
+/* 3000ms */
 @keyframes entry-regular-2 {
     0% { 
         opacity: 0; 
@@ -291,7 +296,7 @@
     }
 }
 
-/* 4000ms */
+/* 3500ms */
 @keyframes entry-regular-3 {
     0% { 
         opacity: 0; 
