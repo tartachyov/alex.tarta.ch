@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="190px" height="90px" viewBox="0 0 190 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>quorini</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="quorini" transform="translate(2, 2)">
+            <g id="q" transform="translate(17, 17)">
+                <rect id="Rectangle" fill="#D20101" fill-rule="nonzero" x="44" y="40" width="6" height="17" rx="3"></rect>
+                <circle id="Oval" stroke="#D20101" stroke-width="6" cx="22" cy="22" r="22"></circle>
+            </g>
+            <path d="M111,60.5 C111,51.3873016 103.612698,44 94.5,44 C85.3873016,44 78,51.3873016 78,60.5" id="u" stroke="#D20101" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" transform="translate(94.5, 52.25) scale(-1, 1) rotate(-180) translate(-94.5, -52.25)"></path>
+            <circle id="o" stroke="#D20101" stroke-width="6" cx="147" cy="39" r="22"></circle>
+            <rect id="Rectangle" stroke="#D20101" stroke-width="3" x="0" y="0" width="186" height="86" rx="15"></rect>
+        </g>
+    </g>
+</svg>

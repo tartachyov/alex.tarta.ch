@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    font-family: 'Harmattan, Helvetica, sans-serif';
+    font-family: "Harmattan", "Sora", Helvetica, sans-serif; 
     font-style: normal;
     font-weight: 400;
 }
@@ -144,10 +144,12 @@
 }
 .speech-text {
     font-size: 26px;
+    line-height: 30px;
     margin: 100px 55px 20px 65px;
 }
 .speech-text-closing {
     font-size: 26px;
+    line-height: 30px;
     margin: 70px 55px 20px 65px;
 }
 .speech-title {
@@ -161,6 +163,7 @@
 }
 .speech-text-small {
     font-size: 22px;
+    line-height: 25px;
     margin: 0px 55px 20px 65px;
 }
 .speech-list {
